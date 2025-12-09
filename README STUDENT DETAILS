@@ -1,0 +1,7 @@
+full name = Gwenn Chanel Feruta
+student ID = 2902708880
+descriptions:
+    original page = i have 3 sections = order details (what user has ordered) payment options (qris, cash and credit) and delivery details where user needs to put in their name, address, phone number. and a place order button when they're done.
+
+    updated page = I've made the padding left added for each header for each section (delivery, payment option and order lists) added a back to top button and shorten the widths with the boxes in payment option and delivery details sections
+      
