@@ -1,0 +1,214 @@
+header {
+    background-color: #081F5C;
+    font-family: 'georgia', serif;
+    color: white;
+    position: sticky;
+    left: 0;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;  
+    font-size: x-large;
+    position: sticky;
+    flex: 1;
+}
+
+a{
+    text-align: start;
+    font-size: medium;
+    position: sticky;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'georgia', sans-serif;    
+    background-color: #f3f6ff;   
+}
+
+.order-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: sticky;
+    margin-top: 10px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.order-item{
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f7f2eb;
+    box-shadow: #e4dfd7;
+    border-bottom: 1px solid black;
+}
+
+.order-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.item-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.item-qty{
+    font-size: small;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(132, 124, 124);
+    position: sticky;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-price{
+    align-items: end;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+h3{
+    padding-left: 20px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-color: #eaecf3
+}
+
+.name, .address, .phone{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.credit{
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f7f2eb;
+    box-shadow: #e4dfd7;
+    margin-left: 20px;
+    border: 1.5px solid #c5c3b1;
+    font-family: 'georgia', sans-serif;
+}
+
+.cash{
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f7f2eb;
+    box-shadow: #e4dfd7;
+    margin-left: 20px;
+    border: 1.5px solid #c5c3b1;
+    font-family: 'georgia', sans-serif;
+}
+
+.qris{
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f7f2eb;
+    margin-left: 20px;
+    border: 1.5px solid #c5c3b1;
+    font-family: 'georgia', sans-serif;
+
+}
+
+.payment-options{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.qris:hover, .credit:hover, .cash:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.input-box{
+    display: flex;
+    width: 25%;
+    display: flex;
+    border-radius: 10px;
+    padding: 8px 10px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f7f2eb;
+    box-shadow: #e4dfd7;
+    margin-left: 20px;
+    border: 1.5px solid #c5c3b1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.place-order{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1.5px solid #c5c3b1;
+    display: flex;
+    justify-content: center;
+}
+
+.place-order-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.place-order:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    cursor: pointer;
+}
